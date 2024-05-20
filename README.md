@@ -30,3 +30,8 @@
    46  git rebase --continue
    47  history
 ```
+### Keeping History Tidy - Squashing Commits:
+```
+   48  git rebase -i HEAD~3
+   49  history
+```
