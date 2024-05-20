@@ -50,3 +50,12 @@
   57  git rebase -i HEAD~3
   58  history
 ```
+### Dropping a Commit:
+```
+   59  touch unwanted.txt
+   60  git add .
+   61  git commit -m "Unwanted commit"
+   62  git rebase -i
+   63  git log
+   64  history
+```
