@@ -14,3 +14,19 @@
    33  history 0
    34  history
 ```
+### Editing Commit History:
+```
+   35  git rebase -i HEAD~3
+   36  git commit --amend
+   37  git rebase --continue
+   38  git rebase -i HEAD~3
+   39  git rebase --continue
+   40  git rebase -i HEAD~3
+   41  git commit --amend
+   42  git log
+   43  git status
+   44  git rebase -i HEAD~3
+   45  git commit --amend
+   46  git rebase --continue
+   47  history
+```
