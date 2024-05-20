@@ -45,3 +45,8 @@
    55  git log
    56  history
 ```
+### Advanced Squashing:
+```
+  57  git rebase -i HEAD~3
+  58  history
+```
