@@ -1,6 +1,7 @@
 # git-exercises
 ## Part 1: Refining Git History 
 ### Missing File Fix:
+```
    24  git clone https://github.com/gloriaumutoni/git-exercises.git
    25  cd git-exercises/
    26  touch test{1..4}.md
@@ -12,3 +13,4 @@
    32  git add test4.md && git commit --amend
    33  history 0
    34  history
+```
