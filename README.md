@@ -59,3 +59,10 @@
    63  git log
    64  history
 ```
+### Reordering Commits:
+```
+   65  git rebase -i
+   66  git rebase -i HEAD~3
+   67  git rebase -i HEAD~2
+   68  history
+```
