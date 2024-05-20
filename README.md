@@ -35,3 +35,13 @@
    48  git rebase -i HEAD~3
    49  history
 ```
+### Splitting a Commit:
+```
+   50  git reset HEAD~
+   51  git add test3.md
+   52  git commit -m "created third file"
+   53  git add test4.md
+   54  git commit -m "created fourth file"
+   55  git log
+   56  history
+```
