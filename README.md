@@ -160,4 +160,11 @@
   106  git switch -
   107  history
 ```
->>>>>>> 1d67347f1a9329b076a1b5e6062e9529990ac25b
+## Part 3: Advanced Workflows (10+ Challenges)
+### Stashing Changes:
+```
+  124  git checkout main
+  125  touch test5.md
+  126  git stash
+  127  history
+```
