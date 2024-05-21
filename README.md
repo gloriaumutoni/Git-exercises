@@ -66,3 +66,18 @@
    67  git rebase -i HEAD~2
    68  history
 ```
+### Cherry-Picking Commits:
+```
+   25  git checkout -b ft/branch
+   26  touch test5.md
+   27  git commit -a -m "Implemented test 5"
+   28  git add test5.md
+   29  git commit -m "Implemented test 5"
+   30  git log
+   31  git cherry-pick 07dd898e0bc3c5dc5376c7c5365928dfee5f8586
+   32  git checkout main
+   33  git cherry-pick 07dd898e0bc3c5dc5376c7c5365928dfee5f8586
+   34  git add test5.md
+   35  git cherry-pick --continue
+   36  history
+```
