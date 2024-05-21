@@ -199,3 +199,8 @@
   147  touch .gitignore
   148  history
 ```
+### Working with Tags:
+```
+  149  git tag v1.0
+  150  history
+```
