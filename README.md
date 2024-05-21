@@ -102,3 +102,62 @@
    46  git checkout -b ft/new-feature
    47  history
 ```
+<<<<<<< HEAD
+=======
+### Working on the Feature Branch:
+```
+   65  git checkout ft/new-feature
+   66  touch feature.txt
+   67  git add .
+   68  git commit -m "Implemented core functionality for new feature"
+```
+### Switching Back and Making More Changes:
+```
+   69  git checkout main
+   70  touch readme.txt
+   71  git add .
+   72  git commit -m "Updated project readme"
+   73  history
+```
+### Branch Deletion:
+```
+   74  git branch
+   75  git branch -d ft/new-feature
+   76  git branch -D ft/new-feature
+   77  git branch
+   78  history
+```
+### Creating a Branch from a Commit:
+```
+   88  git log
+   89  git checkout -b ft/new-branch-from-commit c6e511ee77e46449a65dcd61a13f36d29d39ac5a
+   90  history
+```
+### Branch Merging:
+```
+   91  git checkout main
+   92  git merge ft/new-branch-from-commit
+   93  history
+```
+### Branch Rebasing:
+```
+   94  git rebase ft/new-branch-from-commit
+   95  history
+```
+### Renaming Branches:
+```
+   98  git checkout main
+   99  git branch -m ft/new-branch-from-commit ft/improved-branch-name
+  100  history
+```
+### Checking Out Detached HEAD:
+```
+  101  git log
+  102  gti checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  103  git checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  104  git switch -
+  105  git checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  106  git switch -
+  107  history
+```
+>>>>>>> 1d67347f1a9329b076a1b5e6062e9529990ac25b
