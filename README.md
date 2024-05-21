@@ -189,3 +189,10 @@
   141  git merge ft/improved-branch-name
   142  history
 ```
+### Understanding Detached HEAD State:
+```
+  143  git mergetool
+  144  git branch
+  145  git checkout ft/branch
+  146  history
+```
