@@ -204,3 +204,9 @@
   149  git tag v1.0
   150  history
 ```
+### Listing and Deleting Tags:
+```
+  151   git tag
+  152  git tag -d v1.0
+  153  history
+```
