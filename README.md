@@ -148,3 +148,13 @@
    99  git branch -m ft/new-branch-from-commit ft/improved-branch-name
   100  history
 ```
+### Checking Out Detached HEAD:
+```
+  101  git log
+  102  gti checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  103  git checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  104  git switch -
+  105  git checkout 1ee2b11641a7661a85dec5b959e1dbf48faa5294
+  106  git switch -
+  107  history
+```
