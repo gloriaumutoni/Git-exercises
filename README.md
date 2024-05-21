@@ -210,3 +210,15 @@
   152  git tag -d v1.0
   153  history
 ```
+### Pushing Local Work to Remote Repositories:
+```
+  154  git pull
+  155  git status
+  156  git add .gitignore
+  157  git commit -m "created ignore file"
+  158  git push
+  159  history
+```
+### Pulling Changes from Remote Repositories:
+```
+```
