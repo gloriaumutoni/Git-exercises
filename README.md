@@ -175,3 +175,17 @@
   130  git commit -m "new file"
   131  history
 ```
+### Branch Merging Conflicts (Continued):
+```
+  132  git add .
+  133  git commit -m "updated test1.md"
+  134  git branch
+  135  git checkout ft/improved-branch-name
+  136  git add .
+  137  git commit -m "updated test1.md"
+  138  git checkout main
+  139  git status
+  140  git merge ft/improved-branch-name
+  141  git merge ft/improved-branch-name
+  142  history
+```
