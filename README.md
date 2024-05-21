@@ -102,8 +102,6 @@
    46  git checkout -b ft/new-feature
    47  history
 ```
-<<<<<<< HEAD
-=======
 ### Working on the Feature Branch:
 ```
    65  git checkout ft/new-feature
@@ -195,4 +193,9 @@
   144  git branch
   145  git checkout ft/branch
   146  history
+```
+### Ignoring Files/Directories:
+```
+  147  touch .gitignore
+  148  history
 ```
