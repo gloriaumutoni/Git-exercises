@@ -168,3 +168,10 @@
   126  git stash
   127  history
 ```
+### Retrieving Stashed Changes 
+```
+  128  git stash pop
+  129  git add .
+  130  git commit -m "new file"
+  131  history
+```
