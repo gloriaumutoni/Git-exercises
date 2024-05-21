@@ -90,3 +90,8 @@
    41  git log --graph --oneline --color
    42  history
 ```
+### Understanding Reflogs (Bonus)
+```
+   43  git reflog
+   44  history
+```
