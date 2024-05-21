@@ -137,3 +137,8 @@
    92  git merge ft/new-branch-from-commit
    93  history
 ```
+### Branch Rebasing:
+```
+   94  git rebase ft/new-branch-from-commit
+   95  history
+```
