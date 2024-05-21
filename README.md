@@ -117,3 +117,11 @@
    72  git commit -m "Updated project readme"
    73  history
 ```
+### Branch Deletion:
+```
+   74  git branch
+   75  git branch -d ft/new-feature
+   76  git branch -D ft/new-feature
+   77  git branch
+   78  history
+```
