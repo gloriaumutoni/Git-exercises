@@ -131,3 +131,9 @@
    89  git checkout -b ft/new-branch-from-commit c6e511ee77e46449a65dcd61a13f36d29d39ac5a
    90  history
 ```
+### Branch Merging:
+```
+   91  git checkout main
+   92  git merge ft/new-branch-from-commit
+   93  history
+```
