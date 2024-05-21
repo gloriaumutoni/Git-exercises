@@ -95,3 +95,10 @@
    43  git reflog
    44  history
 ```
+## Part 2: Branching Basics (10 Challenges)
+### Feature Branch Creation:
+```
+   45  git branch
+   46  git checkout -b ft/new-feature
+   47  history
+```
