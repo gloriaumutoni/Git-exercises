@@ -125,3 +125,9 @@
    77  git branch
    78  history
 ```
+### Creating a Branch from a Commit:
+```
+   88  git log
+   89  git checkout -b ft/new-branch-from-commit c6e511ee77e46449a65dcd61a13f36d29d39ac5a
+   90  history
+```
