@@ -102,3 +102,18 @@
    46  git checkout -b ft/new-feature
    47  history
 ```
+### Working on the Feature Branch:
+```
+   65  git checkout ft/new-feature
+   66  touch feature.txt
+   67  git add .
+   68  git commit -m "Implemented core functionality for new feature"
+```
+### Switching Back and Making More Changes:
+```
+   69  git checkout main
+   70  touch readme.txt
+   71  git add .
+   72  git commit -m "Updated project readme"
+   73  history
+```
