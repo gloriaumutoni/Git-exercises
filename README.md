@@ -221,4 +221,9 @@
 ```
 ### Pulling Changes from Remote Repositories:
 ```
+  160  git pull
+  161  git pull origin main
+  162  git checkout main
+  163  git pull origin main
+  164  history
 ```
