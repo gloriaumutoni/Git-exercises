@@ -81,3 +81,12 @@
    35  git cherry-pick --continue
    36  history
 ```
+### Visualizing Commit History (Bonus)
+```
+   37  git log --graph
+   38  git log
+   39  git log --graph --oneline --color
+   40  git log --graph --oneline --color --all
+   41  git log --graph --oneline --color
+   42  history
+```
