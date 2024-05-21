@@ -142,3 +142,9 @@
    94  git rebase ft/new-branch-from-commit
    95  history
 ```
+### Renaming Branches:
+```
+   98  git checkout main
+   99  git branch -m ft/new-branch-from-commit ft/improved-branch-name
+  100  history
+```
